@@ -6,9 +6,23 @@ import ReactGA from 'react-ga';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
+import LayoutConstruction from "./layouts/LayoutConstruction";
+import LayoutLinks from "./layouts/LayoutLinks";
+import LayoutMedia from "./layouts/LayoutMedia";
+import LayoutProperty from "./layouts/LayoutProperty";
+import LayoutAutobody from "./layouts/LayoutAutobody";
+import LayoutCuisine from "./layouts/LayoutCuisine";
 
-// Views 
+
+// Views
 import Home from './views/Home';
+import Autobody from './views/Autobody';
+import Construction from "./views/Construction";
+import Media from "./views/Media";
+import Links from "./views/Links";
+import PropertyManagement from "./views/PropertyManagement";
+import Cuisine from "./views/Cuisine";
+
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -36,7 +50,14 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+            <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+            <AppRoute exact path="/autobody" component={Autobody} layout={LayoutAutobody} />
+            <AppRoute exact path="/construction" component={Construction} layout={LayoutConstruction} />
+            <AppRoute exact path="/links" component={Links} layout={LayoutLinks} />
+            <AppRoute exact path="/media" component={Media} layout={LayoutMedia} />
+            <AppRoute exact path="/cuisine" component={Cuisine} layout={LayoutCuisine} />
+            <AppRoute exact path="/propertymanagement" component={PropertyManagement} layout={LayoutProperty} />
+
         </Switch>
       )} />
   );
