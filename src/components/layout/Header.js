@@ -1,8 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Container from "../elements/Container";
+import Button from "react-bootstrap/cjs/Button";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -66,7 +68,14 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
+  const triggerText = 'Contact Us';
+  const onSubmit = (event) => {
+    event.preventDefault(event);
+    console.log(event.target.name.value);
+    console.log(event.target.email.value);
+  };
+
 
   const classes = classNames(
     'site-header',
@@ -95,7 +104,7 @@ const Header = ({
               >
                 <span className="screen-reader">Menu</span>
                 <span className="hamburger">
-                  <span className="hamburger-inner"></span>
+                  <span className="hamburger-inner"/>
                 </span>
               </button>
               <nav
@@ -111,15 +120,23 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}` )}>
                     <li>
-                      <Link to="#Home" onClick={closeMenu}>Home</Link>
+                      {/*<Link to={"/"} >Home</Link>*/}
                     </li>
                   </ul>
 
                   {!hideSignin &&
                     <ul className="list-reset header-nav-right">
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Us</Link>
+                        <a target="_blank" href="https://altapotentia.com/book">Meet With Us</a>
                       </li>
+                      <li>
+                        <Button  variant='danger'>
+                        <Container triggerText={triggerText} onSubmit={onSubmit} >
+                          <a> Contact Us</a>
+                        </Container>
+                      </Button>
+                      </li>
+
                     </ul>}
                 </div>
               </nav>

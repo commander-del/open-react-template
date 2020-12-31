@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
 
-
 const propTypes = {
   ...SectionProps.types
 }
@@ -22,8 +21,7 @@ const Hero = ({
   ...props
 }) => {
 
-
-  const outerClasses = classNames(
+   const outerClasses = classNames(
     'hero section center-content',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
@@ -48,9 +46,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="500">
-              Alta <span className="text-color-primary">Potentia</span>
+              Alta <span className="text-color-primary">Careers</span>
             </h1>
+
           </div>
+
         </div>
       </div>
     </section>

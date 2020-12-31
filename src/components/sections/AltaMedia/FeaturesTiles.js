@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Build up the whole picture',
-    paragraph: '"Growth is never by mere chance; it is the result of forces working together." - James Cash Penney'
+    paragraph: 'If you do not like what you see, change your perspective.'
   };
 
   return (
@@ -72,11 +72,12 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Business Development
+                    Media Production
                     </h4>
-                  {/*<p className="m-0 text-sm">*/}
-                  {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
-                  {/*  </p>*/}
+                  <p className="m-0 text-sm">
+                    {/*Photography and videography production services to create impactful brand focused content to promote your products and services.*/}
+                    Professional Photography and Videography Services
+                  </p>
                 </div>
               </div>
             </div>
@@ -94,11 +95,12 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Portfolio Diversification
+                    Social Media Profiles
                     </h4>
-                  {/*<p className="m-0 text-sm">*/}
-                  {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
-                  {/*  </p>*/}
+                  <p className="m-0 text-sm">
+                    {/*Creation and management of Facebook, Instagram, Google Business, Yelp and more...*/}
+                    Creation and management of social media profiles
+                    </p>
                 </div>
               </div>
             </div>
@@ -116,11 +118,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Short Term Investment
-                    </h4>
-                  {/*<p className="m-0 text-sm">*/}
-                  {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
-                  {/*  </p>*/}
+                  Scheduled Social Media Campaigns
+                  </h4>
+                  <p className="m-0 text-sm">
+                  Consistent content delivery for maximum user engagement
+                  </p>
                 </div>
               </div>
             </div>
@@ -138,11 +140,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Industry Partnerships
-                    </h4>
-                  {/*<p className="m-0 text-sm">*/}
-                  {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
-                  {/*  </p>*/}
+                    Marketing Collaborations
+                  </h4>
+                  <p className="m-0 text-sm">
+                   Partnering with local and enterprise level brands for reach and impact
+                    </p>
                 </div>
               </div>
             </div>
@@ -160,11 +162,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    End to End Product Development
+                    Private Labeling
                     </h4>
-                  {/*<p className="m-0 text-sm">*/}
-                  {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
-                  {/*  </p>*/}
+                  <p className="m-0 text-sm">
+                    Custom products printed or designed with your branding
+                    </p>
                 </div>
               </div>
             </div>
@@ -182,11 +184,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Long Term Investment
+                    Brand Engagement
                     </h4>
-                  {/*<p className="m-0 text-sm">*/}
-                  {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
-                  {/*  </p>*/}
+                  <p className="m-0 text-sm">
+                    Optimizing maximum reach for your target demographic
+                    </p>
                 </div>
               </div>
             </div>

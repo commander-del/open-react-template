@@ -12,6 +12,7 @@ import LayoutMedia from "./layouts/LayoutMedia";
 import LayoutProperty from "./layouts/LayoutProperty";
 import LayoutAutobody from "./layouts/LayoutAutobody";
 import LayoutCuisine from "./layouts/LayoutCuisine";
+import LayoutCareers from "./layouts/LayoutCareers";
 
 
 // Views
@@ -22,6 +23,8 @@ import Media from "./views/Media";
 import Links from "./views/Links";
 import PropertyManagement from "./views/PropertyManagement";
 import Cuisine from "./views/Cuisine";
+import Careers from "./views/Careers";
+
 
 
 // Initialize Google Analytics
@@ -57,7 +60,7 @@ const App = () => {
             <AppRoute exact path="/media" component={Media} layout={LayoutMedia} />
             <AppRoute exact path="/cuisine" component={Cuisine} layout={LayoutCuisine} />
             <AppRoute exact path="/propertymanagement" component={PropertyManagement} layout={LayoutProperty} />
-
+            <AppRoute exact path="/careers" component={Careers} layout={LayoutCareers} />
         </Switch>
       )} />
   );

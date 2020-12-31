@@ -1,18 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
 
-
 const propTypes = {
+  children: PropTypes.node,
   ...SectionProps.types
 }
 
 const defaultProps = {
+  children: null,
   ...SectionProps.defaults
 }
 
-const Hero = ({
+const GenericSection = ({
   className,
+  children,
   topOuterDivider,
   bottomOuterDivider,
   topDivider,
@@ -22,9 +25,8 @@ const Hero = ({
   ...props
 }) => {
 
-
   const outerClasses = classNames(
-    'hero section center-content',
+    'section',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -33,7 +35,7 @@ const Hero = ({
   );
 
   const innerClasses = classNames(
-    'hero-inner section-inner',
+    'section-inner',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
@@ -42,22 +44,17 @@ const Hero = ({
     <section
       {...props}
       className={outerClasses}
-      id="Home"
     >
-      <div className="container-sm">
+      <div className="container">
         <div className={innerClasses}>
-          <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="500">
-              Alta <span className="text-color-primary">Potentia</span>
-            </h1>
-          </div>
+          {children}
         </div>
       </div>
     </section>
   );
 }
 
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
+GenericSection.propTypes = propTypes;
+GenericSection.defaultProps = defaultProps;
 
-export default Hero;
+export default GenericSection;

@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: '"Growth is never by mere chance; it is the result of forces working together." - James Cash Penney'
+    title: 'Helping You Operate At Your Highest Potential',
+    paragraph: '"If you want to go fast, go alone. But if you want to go far go together."'
   };
 
   return (

@@ -1,10 +1,10 @@
 import React from 'react';
-// import sections
+// Import Sections
 import Hero from '../components/sections/AltaPotentia/Hero';
 import FeaturesTiles from '../components/sections/AltaPotentia/FeaturesTiles';
 import FeaturesSplit from '../components/sections/AltaPotentia/FeaturesSplit';
-// import Testimonial from '../components/sections/AltaPotentia/Testimonial';
-// import Cta from '../components/sections/Cta';
+import CtaContact from '../components/sections/CtaContact';
+
 
 const Home = () => {
 
@@ -13,8 +13,7 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      {/*<TestimonialConstruction topDivider />*/}
-      {/*<Cta split />*/}
+      <CtaContact id="Contact"/>
 
     </>
 

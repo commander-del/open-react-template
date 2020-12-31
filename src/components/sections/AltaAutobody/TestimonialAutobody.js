@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../../utils/SectionProps';
-import SectionHeader from '../partialsHome/SectionHeader';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -32,21 +31,21 @@ const Testimonial = ({
     className
   );
 
-  const innerClasses = classNames(
-    'testimonial-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
-  );
-
-  const tilesClasses = classNames(
-    'tiles-wrap',
-    pushLeft && 'push-left'
-  );
-
-  const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
-  };
+  // const innerClasses = classNames(
+  //   'testimonial-inner section-inner',
+  //   topDivider && 'has-top-divider',
+  //   bottomDivider && 'has-bottom-divider'
+  // );
+  //
+  // const tilesClasses = classNames(
+  //   'tiles-wrap',
+  //   pushLeft && 'push-left'
+  // );
+  //
+  // const sectionHeader = {
+  //   title: 'Customer testimonials',
+  //   paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+  // };
 
   return (
     <section

@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: '"Growth is never by mere chance; it is the result of forces working together." - James Cash Penney'
+    title: 'Tools That Help You, Help Your Customers',
+    // paragraph: '"Growth is never by mere chance; it is the result of forces working together." - James Cash Penney'
   };
 
   return (
@@ -72,7 +72,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Business Development
+                    Connect Directly With Insurance Companies
                     </h4>
                   {/*<p className="m-0 text-sm">*/}
                   {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
@@ -94,7 +94,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Portfolio Diversification
+                  Automated Report Generation, Estimates, Work Orders, Invoices, Receipts
                     </h4>
                   {/*<p className="m-0 text-sm">*/}
                   {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
@@ -116,7 +116,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Short Term Investment
+                    Your Business Accessible From Anywhere
                     </h4>
                   {/*<p className="m-0 text-sm">*/}
                   {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
@@ -138,7 +138,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Industry Partnerships
+                    Scale Your Business While Keeping It Simple
                     </h4>
                   {/*<p className="m-0 text-sm">*/}
                   {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
@@ -160,7 +160,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    End to End Product Development
+                  Create Insights For Your Business That Help You And Your Team Crush Your Goals
                     </h4>
                   {/*<p className="m-0 text-sm">*/}
                   {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
@@ -182,8 +182,8 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Long Term Investment
-                    </h4>
+                    Automated Customer Notifications And Reminders
+                  </h4>
                   {/*<p className="m-0 text-sm">*/}
                   {/*  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.*/}
                   {/*  </p>*/}

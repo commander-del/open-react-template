@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
-// import {Button} from "react-bootstrap";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -96,7 +95,7 @@ const Header = ({
               >
                 <span className="screen-reader">Menu</span>
                 <span className="hamburger">
-                  <span className="hamburger-inner"/>
+                  <span className="hamburger-inner"></span>
                 </span>
               </button>
               <nav
@@ -111,13 +110,15 @@ const Header = ({
                     classNames(
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}` )}>
-
+                    <li>
+                      <Link to="#Home" onClick={closeMenu}>Home</Link>
+                    </li>
                   </ul>
 
                   {!hideSignin &&
                     <ul className="list-reset header-nav-right">
                       <li>
-                        <Link to="https://altapotentia.com/book/index.php?service=2" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Meet With Us</Link>
+                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Us</Link>
                       </li>
                     </ul>}
                 </div>

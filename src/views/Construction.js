@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroConstruction from '../components/sections/AltaConstruction/HeroConstruction';
+// import HeroConstruction from '../components/sections/AltaConstruction/HeroConstruction';
 import FeaturesTilesConstruction from '../components/sections/AltaConstruction/FeaturesTilesConstruction';
 import FeaturesSplitConstruction from '../components/sections/AltaConstruction/FeaturesSplitConstruction';
 import TestimonialConstruction from '../components/sections/AltaConstruction/TestimonialConstruction';
@@ -9,9 +9,6 @@ import GenericSectionConstruction from "../components/sections/AltaConstruction/
 class Construction extends React.Component {
     render() {
 
-        // const sectionHeader = {
-        //     title: 'AltaConstruction'
-        // }
 
         return (
             <React.Fragment>

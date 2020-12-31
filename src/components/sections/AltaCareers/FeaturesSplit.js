@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../../utils/SectionProps';
 import SectionHeader from '../partialsHome/SectionHeader';
@@ -73,7 +72,7 @@ const FeaturesSplit = ({
                   Ignite Your Audience
                   </div>
                 <h3 className="mt-0 mb-12">
-                  <Link to="/Media">Alta Media</Link>
+                  Alta Media
                   </h3>
                 <p className="m-0">
                   Alta media provides social media marketing services to connect with your audience, build your brand, increase sales, and drive website traffic.
@@ -85,13 +84,11 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <a href="/media">
                 <Image
                   src={require('../../../assets/media.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
-                </a>
               </div>
             </div>
 
@@ -101,8 +98,8 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Link your Networks
                 </div>
-                <h3 className="mt-0 mb-12"> Alta Links
-                  {/*<Link to="/links">Alta Links</Link>*/}
+                <h3 className="mt-0 mb-12">
+                  Alta Links
                 </h3>
                 <p className="m-0">
                   Alta Links is a page where users/influencers/ and marketeers can add links to a single mobile friendly page, along with a profile picture, company name, contact.vcf, chat bot, to connect and engage with customers and audience.
@@ -128,8 +125,8 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Never Miss an Opportunity
                 </div>
-                <h3 className="mt-0 mb-12">Alta Safe Appointments
-                  {/*<Link to="/safeappointments">Alta Safe Appointments</Link>*/}
+                <h3 className="mt-0 mb-12">
+                  Alta Safe Appointments
                 </h3>
                 <p className="m-0">
                   Alta Safe Appointments automates the process of creating and maintaining schedules. Helping you stay in sync with your customers providing notifications, and reminders.                </p>
@@ -154,8 +151,8 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   make your business scalable
                 </div>
-                <h3 className="mt-0 mb-12">Alta Autobody
-                 {/*<Link to="/autobody">Alta Autobody</Link>*/}
+                <h3 className="mt-0 mb-12">
+                  Alta Autobody
                 </h3>
                 <p className="m-0">
                   Get an all-in-one, cloud-based solution to automate,and completely manage your business.
@@ -184,8 +181,8 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                 Save time and Money
                 </div>
-                <h3 className="mt-0 mb-12"> Alta Construction
-                  {/*<Link to="/construction">Alta Construction</Link>*/}
+                <h3 className="mt-0 mb-12">
+                  Alta Construction
                 </h3>
                 <p className="m-0">
                   Give your customers the tools and information they need to quote jobs themselves, providing them control over their customer experience while saving you time and money.
@@ -206,59 +203,59 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            {/*/!*Alta PropertyManagement*!/*/}
-            {/*<div className="split-item" id="AltaProperty">*/}
-            {/*  <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">*/}
-            {/*    <div className="text-xxs text-color-primary fw-600 tt-u mb-8">*/}
-            {/*      Managing your Property not other people*/}
-            {/*    </div>*/}
-            {/*    <h3 className="mt-0 mb-12">*/}
-            {/*      <Link to="/property">Alta Property Management</Link>*/}
-            {/*    </h3>*/}
-            {/*    <p className="m-0">*/}
-            {/*    Coming soon...*/}
-            {/*    </p>*/}
-            {/*  </div>*/}
-            {/*  <div className={*/}
-            {/*    classNames(*/}
-            {/*        'split-item-image center-content-mobile reveal-from-bottom',*/}
-            {/*        imageFill && 'split-item-image-fill'*/}
-            {/*    )}*/}
-            {/*       data-reveal-container=".split-item">*/}
-            {/*    <Image*/}
-            {/*        src={require('../../../assets/images/features-split-image-02.png')}*/}
-            {/*        alt="Features split 02"*/}
-            {/*        width={528}*/}
-            {/*        height={396} />*/}
-            {/*  </div>*/}
-            {/*</div>*/}
+            {/*Alta PropertyManagement*/}
+            <div className="split-item" id="AltaProperty">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Managing your Property not other people
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Alta PropertyManagement
+                </h3>
+                <p className="m-0">
+                Coming soon...
+                </p>
+              </div>
+              <div className={
+                classNames(
+                    'split-item-image center-content-mobile reveal-from-bottom',
+                    imageFill && 'split-item-image-fill'
+                )}
+                   data-reveal-container=".split-item">
+                <Image
+                    src={require('../../../assets/images/features-split-image-02.png')}
+                    alt="Features split 02"
+                    width={528}
+                    height={396} />
+              </div>
+            </div>
 
-            {/*/!*Alta Cuisine*!/*/}
-            {/*<div className="split-item" id="AltaCuisine">*/}
-            {/*  <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">*/}
-            {/*    <div className="text-xxs text-color-primary fw-600 tt-u mb-8">*/}
-            {/*      Stimulate your sense of Taste*/}
-            {/*    </div>*/}
-            {/*    <h3 className="mt-0 mb-12">*/}
-            {/*      <Link to="/cuisine">Alta Cuisine</Link>*/}
-            {/*    </h3>*/}
-            {/*    <p className="m-0">*/}
-            {/*      Coming soon...*/}
-            {/*    </p>*/}
-            {/*  </div>*/}
-            {/*  <div className={*/}
-            {/*    classNames(*/}
-            {/*        'split-item-image center-content-mobile reveal-from-bottom',*/}
-            {/*        imageFill && 'split-item-image-fill'*/}
-            {/*    )}*/}
-            {/*       data-reveal-container=".split-item">*/}
-            {/*    <Image*/}
-            {/*        src={require('../../../assets/images/features-split-image-03.png')}*/}
-            {/*        alt="Features split 03"*/}
-            {/*        width={528}*/}
-            {/*        height={396} />*/}
-            {/*  </div>*/}
-            {/*</div>*/}
+            {/*Alta Cuisine*/}
+            <div className="split-item" id="AltaCuisine">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Stimulate your sense of Taste
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Alta Cuisine
+                </h3>
+                <p className="m-0">
+                  Coming soon...
+                </p>
+              </div>
+              <div className={
+                classNames(
+                    'split-item-image center-content-mobile reveal-from-bottom',
+                    imageFill && 'split-item-image-fill'
+                )}
+                   data-reveal-container=".split-item">
+                <Image
+                    src={require('../../../assets/images/features-split-image-03.png')}
+                    alt="Features split 03"
+                    width={528}
+                    height={396} />
+              </div>
+            </div>
 
           </div>
         </div>
